@@ -21,3 +21,14 @@ CREATE TABLE students (
     name VARCHAR(100),
     age INT
 );
+```
+## Assumptions
+The app assumes MySQL is running locally on port 3306.
+
+The database name is studentdb, and the table is students.
+
+User credentials (root / your_password) must match your MySQL setup.
+
+All database operations are handled via StudentDAO.java using JDBC.
+
+The app uses basic console input and does not include GUI or file I/O.
